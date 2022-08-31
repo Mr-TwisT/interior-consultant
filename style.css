@@ -23,3 +23,206 @@ svg {
 }
 
 /* Code */
+
+.app {
+  width: 100vw;
+  background: #181719;
+  color: #fff;
+}
+
+.app__header {
+  width: 100%;
+  padding-top: 2.625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__header-left {
+  margin-left: 4.75rem;
+  padding: 0.5rem;
+  border: solid 1px #fff;
+}
+
+.app__header-left p {
+  font-family: "Crimson Pro", serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+.app__header-right {
+  margin-right: 4.75rem;
+}
+
+.app__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 5.375rem;
+}
+
+.app__nav li {
+  list-style: none;
+  border-bottom: solid 2px #181719;
+}
+
+.app__nav li:hover {
+  padding-bottom: 0.5rem;
+  border-color: #fff;
+}
+
+.app__nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.app__nav li:hover a {
+  font-weight: 700;
+}
+
+.app__main {
+  width: 100%;
+  padding-top: 10.625rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8.75rem;
+  align-items: center;
+}
+
+.app__main-left {
+  margin-left: 4.75rem;
+}
+
+.app__title {
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.8125rem;
+}
+
+.app__text {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8125;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.app__main-left div {
+  max-width: max-content;
+}
+
+.app__main-left a {
+  text-decoration: none;
+}
+
+.app__readMore {
+  display: flex;
+  flex-direction: row;
+  gap: 0.875rem;
+  color: #fff;
+}
+
+.app__readMore p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.app__main-right {
+  margin-right: 4.75rem;
+  position: relative;
+}
+
+.app__designerCard {
+  max-width: max-content;
+  position: absolute;
+  bottom: -6.9375rem;
+  right: 2rem;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1.125rem 0 1.125rem 2rem;
+}
+
+.app__designerCard-personalInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.app__designerCard-personalInfo img {
+  width: 50px;
+  border-radius: 37px;
+}
+
+.app__designerCard-personalInfo section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.1875rem;
+}
+
+.app__designerCard-personalInfo section h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  margin-top: 0.3125rem;
+}
+
+.app__designerCard-personalInfo section p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: #828282;
+  margin-top: 0.5rem;
+}
+
+.app__designerCard-projectInfo {
+  width: 75%;
+}
+
+.app__designerCard-projectInfo p {
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9375;
+  margin-top: 1.625rem;
+}
+
+.app__footer {
+  width: 100%;
+  margin-top: 8rem;
+  padding-bottom: 1.5rem;
+}
+
+.app__footer p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #a9a9a9;
+  text-align: center;
+}
+
+.app__footer p span {
+  font-weight: 700;
+}
