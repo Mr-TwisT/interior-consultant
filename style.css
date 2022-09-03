@@ -232,6 +232,11 @@ svg {
   font-weight: 700;
 }
 
+.app__footer a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+
 @media (width < 1050px) {
   .app__header {
     padding-top: 1.25rem;
