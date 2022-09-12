@@ -19,7 +19,6 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
     max-width: 100%;
 }
 
@@ -104,13 +103,14 @@ svg {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 8.75rem;
     align-items: center;
 }
 
 .app__main-left {
-    margin-left: 4.75rem;
+    flex-basis: 700px;
+    flex-grow: 1;
 }
 
 .app__title {
@@ -156,8 +156,11 @@ svg {
 }
 
 .app__main-right {
-    margin-right: 4.75rem;
-    position: relative;
+    flex-grow: 1;
+    flex-basis: 500px;
+    /* position: relative; */
+}
+.app__main__right-imgContainer {
 }
 
 .app__designerCard {
@@ -242,7 +245,7 @@ svg {
 }
 
 @media (width < 1050px) {
-    .app__header {
+    /* .app__header {
         padding-top: 1.25rem;
     }
     .app__header-left {
@@ -250,14 +253,14 @@ svg {
     }
     .app__header-right {
         margin-right: 0.75rem;
-    }
+    } */
     .app__nav {
         display: none;
     }
     .app__menuIcons {
         display: block;
     }
-    .app__main {
+    /* .app__main {
         padding-top: 2.375rem;
         padding-bottom: 3.8125rem;
         flex-direction: column;
@@ -315,5 +318,5 @@ svg {
     .app__footer {
         margin-top: 9.25rem;
         padding-bottom: 1.5rem;
-    }
+    } */
 }
