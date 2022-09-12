@@ -9,7 +9,23 @@
     font: inherit;
 }
 
+/* custom scrollbar */
+::-webkit-scrollbar {
+    background-color: #181719;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: #242425;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(50, 50, 50, 0.5);
+}
+
 body {
+    scroll-behavior: smooth;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -249,78 +265,10 @@ svg {
 }
 
 @media (width < 1050px) {
-    /* .app__header {
-        padding-top: 1.25rem;
-    }
-    .app__header-left {
-        margin-left: 0.75rem;
-    }
-    .app__header-right {
-        margin-right: 0.75rem;
-    } */
     .app__nav {
         display: none;
     }
     .app__menuIcons {
         display: block;
     }
-    /* .app__main {
-        padding-top: 2.375rem;
-        padding-bottom: 3.8125rem;
-        flex-direction: column;
-        gap: 2.375rem;
-        align-items: flex-start;
-    }
-    .app__main-left {
-        margin-left: 0.75rem;
-    }
-    .app__title {
-        font-size: 2.25rem;
-        line-height: 2.875rem;
-    }
-    .app__text {
-        width: 70%;
-        font-size: 0.875rem;
-        line-height: 1rem;
-        margin: 1.5625rem 0;
-    }
-    .app__readMore p,
-    .app__readMore span {
-        font-size: 0.875rem;
-        line-height: 1.025rem;
-    }
-    .app__main-right {
-        width: 100%;
-        padding: 0 0.75rem;
-    }
-    .app__designerCard {
-        bottom: -5.375rem;
-        right: 1rem;
-        padding: 0.875rem 0 1.5625rem 1.25rem;
-    }
-    .app__designerCard-personalInfo img {
-        width: 37px;
-    }
-    .app__designerCard-personalInfo section {
-        padding-left: 0.875rem;
-    }
-    .app__designerCard-personalInfo section h3 {
-        font-size: 0.75rem;
-        line-height: 0.9375rem;
-        margin-top: 0.25rem;
-    }
-    .app__designerCard-personalInfo section p {
-        font-size: 0.625rem;
-        line-height: 0.75rem;
-        margin-top: 0.365rem;
-    }
-    .app__designerCard-projectInfo p {
-        font-size: 1.125rem;
-        line-height: 1.4375;
-        margin-top: 1.375rem;
-    }
-    .app__footer {
-        margin-top: 9.25rem;
-        padding-bottom: 1.5rem;
-    } */
 }
